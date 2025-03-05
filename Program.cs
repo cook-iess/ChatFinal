@@ -4,7 +4,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddSignalR();
-builder.WebHost.UseUrls("https://192.168.1.61:7144");
 
 var app = builder.Build();
 
